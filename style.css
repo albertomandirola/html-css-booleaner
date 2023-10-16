@@ -7,3 +7,30 @@ header{
     background-color: rgb(0, 102, 255);
     background-size: 275px;
 }
+.casella{
+    width: 250px;
+}
+thead td{
+    color: white;
+}
+thead{
+    background-color: rgb(55, 188, 233);
+}
+.azzurro{
+    background-color: aqua;
+}
+ul {
+    padding-left: 15px;
+}
+.evidenzia{
+    background-color: rgb(252, 252, 125);
+}
+h1{
+    margin-bottom: 0;
+}
+div{
+    font-size: 10px;
+}
+.sbiadito{
+    color: rgba(0, 0, 0, 0.6);
+}
