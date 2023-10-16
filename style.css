@@ -1,3 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1050px;
+    margin: auto;
+}
 #bool{
     width: 150px;
     padding-top: 30px ;
@@ -21,6 +30,9 @@ thead{
 }
 ul {
     padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .evidenzia{
     background-color: rgb(252, 252, 125);
@@ -32,5 +44,33 @@ div{
     font-size: 10px;
 }
 .sbiadito{
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.5);
 }
+p{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+.img1{
+    width: 300px;
+    height: 250px;
+    background-image: url(./img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.img2{
+    width: 300px;
+    height: 250px;
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
