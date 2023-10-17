@@ -3,10 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    width: 1050px;
-    margin: auto;
-}
+
 #bool{
     width: 150px;
     padding-top: 30px ;
@@ -16,10 +13,16 @@ header{
     background-color: rgb(0, 102, 255);
     background-size: 275px;
 }
-.casella{
-    width: 250px;
+h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-thead td{
+
+.text{
+    width: 50%;
+}
+th{
     color: white;
 }
 thead{
@@ -34,21 +37,24 @@ ul {
     margin-bottom: 10px;
 
 }
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
 .evidenzia{
     background-color: rgb(252, 252, 125);
 }
-h1{
-    margin-bottom: 0;
-}
-div{
+.photo{
     font-size: 10px;
 }
 .sbiadito{
     color: rgba(0, 0, 0, 0.5);
 }
 p{
-    margin-top: 15px; 
-    margin-bottom: 15px;
+    margin-top: 15px 0; 
+}
+h3{
+    margin: 10px 0;
 }
 .img1{
     width: 300px;
@@ -58,9 +64,9 @@ p{
     background-size: cover;
     color: white;
     font-size: 30px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    
 }
 .img2{
     width: 300px;
@@ -70,7 +76,7 @@ p{
     background-size: cover;
     color: white;
     font-size: 30px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
+    
 }
 
